@@ -1,0 +1,499 @@
+/*common css start*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'roboto' sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+    color: #566366;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+
+}
+h4{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+
+}
+p{
+    color: #566366;
+    font-size: 18px;
+    line-height: 30px;
+}
+/*common css end*/
+nav{
+    background-color: #252e30;
+}
+
+nav .container .logo{
+    width: 20%;
+
+}
+nav .container .menu {
+    width: 80%;
+}
+nav .container .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+nav .container .menu ul li {
+    display: inline-block;
+    padding: 25px;
+
+    
+}
+nav .container .menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+nav .container .menu ul li:hover a{
+    color:#2ecc71 ;
+
+}
+/*nav css section end*/
+#banner{
+    background: url(../image/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:1000px ;
+    color: #fff;
+    font-weight: 700;
+}
+#banner .banner_content{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 1000px;
+}
+#banner .banner_content .banner_item{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+#banner .banner_content .banner_item h1{
+    font-size: 60px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+
+}
+#banner .banner_content .banner_item a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 20px;
+}
+/*feature css start*/
+#feature .feature_content .feature_item{
+    color: #566366;
+    width:calc(100% / 3);
+    margin: 90px 0;
+
+}
+#feature .feature_content .feature_item h3{
+    font-size:30px ;
+    font-weight:700 ;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+
+}
+#feature .feature_content .feature_item p{
+    font-size:18px ;
+    font-weight:400;
+    line-height: 30px;
+    padding-right: 50px;
+    
+}
+
+
+/*feature css end*/
+/*about section css start*/
+
+/*
+#about .row{
+}
+#about .about_content{
+    background-color: #f2f2f1;
+    padding-top:90px;
+    padding-bottom:90px;
+    padding-left: 50px;
+}
+#about .about_item{
+    padding: 50px 0;
+}
+#about .profile_img{
+    width:30%;
+}
+#about .profile_img img{
+    width: 100%;
+}
+#about .about_content{
+    width:70%;
+}
+*/
+#about{
+    height: 755px;
+
+}
+#about .image{
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+}
+#about .image img{
+    width:100%;
+    height: 755px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+#about .about_content{
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 755px;  
+    padding: 90px 0;
+}
+#about .about_content .about_me h2{
+    padding-bottom: 40px;
+   
+}
+#about .about_content p{
+
+    font-size: 18px;
+    font-weight: 400;
+}
+#about .icon_sec{
+    width:680px;
+    margin:auto;
+    
+}
+
+#about .about_content .about_info .icon{
+
+    width:50%;
+    padding-right: 40px;
+    padding-top: 50px;
+
+}
+#about .icon{
+    height:170px;
+}
+#about .about_info .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .row .icon_bg{
+    display: inline-block;
+    width:20%;
+}
+#about .row .text{
+    display: inline-block;
+    width:80%;
+}
+/*about css  section end*/                 
+/*progress css  section start*/
+#progress{
+    padding:95px 100px;
+}
+#progress .progress_sec{
+    width:50%;
+    display: inline-block;
+
+}
+#progress .skill_sec{
+    width:50%;
+    display: inline-block;
+    padding-right: 80px;
+
+
+}
+#progress .skill_sec p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 40px 0;
+}
+#progress .skill_sec a{
+    font-size: 18px;
+    font-weight:700;
+    color:#2ecc71;
+    padding:18px 35px ;
+    border: 2px solid #2ecc71;
+    text-transform: uppercase;
+
+}
+#progress .progress_sec h4{
+    padding-top: 35px;
+    padding-bottom: 18px;
+
+}
+#progress .progress_sec .bar{
+    background-color: #f2f2f1;
+    text-align: right;
+    color: #fff;
+    
+}
+#progress .progress_sec .bar .bar_1{
+    background-color: #2ecc71;
+    width:90%;
+}
+#progress .progress_sec .bar .bar_2{
+    background-color: #2ecc71;
+    width:80%;
+}
+#progress .progress_sec .bar .bar_3{
+    background-color: #2ecc71;
+    width:90%;
+}
+#progress .progress_sec .bar .bar_4{
+    background-color: #2ecc71;
+    width:70%;
+}
+/*progress css  section end*/
+/*resume css  section start*/
+#resume{
+    background: #f2f2f1;
+
+}
+#resume .resume_sec .container{
+    font-size: 30px;
+    font-size: 700;
+
+}
+#resume .resume_sec{
+    text-align: center;
+    padding: 100px;
+}
+#resume .resume_sec p{
+    line-height: 30px;
+    padding: 48px 0;
+}
+#resume .resume_sec a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 20px;
+    text-transform: uppercase;
+}
+/*resume css  section start*/
+/*education css section start*/
+
+#education {
+    padding: 98px 100px 0;
+
+}
+#education .row {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 90px;
+
+}
+#education .edu_content {
+    width:50%;
+    display:inline-block;
+    padding-right: 85px;
+
+}
+#education .edu_content h2 {
+    padding-bottom: 48px;
+
+}
+#education .edu_content h3{
+    font-size: 30px;
+
+}
+#education .edu_item {
+    width:50%;
+    display:inline-block;
+}
+#education .gpa{
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #cccccc;
+    display: inline-block;
+    padding: 9px;
+
+
+}
+#education .edu_item p{
+    padding: 20px 0;
+}    
+/*education css  section end*/
+
+/*work css section start*/
+
+#work{
+    padding: 98px 100px 0;
+}
+#work .row {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 90px;
+
+}
+#work .work_content {
+    width:50%;
+    display:inline-block;
+    padding-right: 85px;
+
+}
+#work .work_content h2 {
+    padding-bottom: 48px;
+
+}
+#work .work_content h3{
+    font-size: 30px;
+}
+#work .Experience{
+    width:50%;
+    display:inline-block;
+}
+#work .time{
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #cccccc;
+    display: inline-block;
+    padding: 9px;
+}
+
+#work .Experience p{
+    padding: 20px 0;
+}
+/*work css section end*/
+
+/*somewords css section start*/
+#somewords{
+    background: #f2f2f1;
+    
+}
+#somewords .content{
+    color:#566366;
+    margin: auto;
+    text-align: center;
+    padding:95px 65px 150px ;
+}
+#somewords .content p{
+    font-size: 24px;
+    line-height: 36px;
+}
+#somewords .content h5{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*somewords css section end*/
+/*Portfolio css section start*/
+#portfolio{
+    padding: 100px ;
+}
+#portfolio .container .portfolio_content{
+    text-align: center;
+    padding: 0 90px;
+
+}
+#portfolio .container .portfolio_content p{
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+#portfolio .portfolio_img{
+    width:calc(100% / 3);
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+/*Portfolio css section end*/
+/*Contact css section start*/
+#contact{
+   background-color: #252d2f;
+   color: #919191;
+}
+#contact .row .contact_content{
+    width:50%;
+    padding-right: 85px;
+    text-align: justify;
+    padding-top: 96px;
+}
+#contact .row .form{
+    width:50%;
+}
+#contact .contact_content h2{
+    color: #fff;
+}
+#contact .contact_content address{
+   color: #919191;
+    
+}
+#contact .contact_content .p-tag p{
+    color: #fff;
+}
+#contact .form label{
+    padding-top: 39px;
+    padding-bottom: 19px;
+}
+#contact .form label{
+    display: block;
+    color: #fff;
+}
+#contact .form label span{
+     color: #919191;
+}
+#contact .form input{
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    background:#4b5456;   
+       
+}
+
+#contact .form textarea{
+    display: block;
+    background:#4b5456;  
+    height: 278px;
+    resize: vertical;
+
+}
+#contact .form button{
+    padding: 20px 35px;
+    background: #191f21;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*Contact css section end*/
